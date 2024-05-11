@@ -1,0 +1,323 @@
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'poppins',sans-serif;
+   box-sizing: border-box;
+}
+body{
+    /* display: flex; */
+    background: #efefef;
+  margin: 0;
+  padding: 0;
+}
+
+
+.nav-bar{
+    display: flex;
+    border: none;
+    outline: none;
+    position:sticky;
+    background:azure;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    margin: 0 0 5px 0;
+    top: 0;
+    
+
+}
+
+.logo{
+    width: 130px;
+    margin-left: 10px;
+    margin-top: -12px;
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 10px 0 0 5px;
+    justify-content: center;
+    align-items: center;
+   
+}
+#login{
+    margin-left: 300px;
+    margin-top: -6PX;
+}
+.input-box input{
+  justify-content: center;
+  align-items: center;
+ margin: 3PX 15px 0 0;
+ border-radius: 50PX;
+ height: 30PX;
+ width: 95%;
+  
+}
+.input-box input::placeholder{
+    padding-left: 55px;
+}
+nav ul li{
+    padding: 0 5px 0 30px;
+    margin-left: 40px;
+    margin-top: -8px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    transition: 0.5s;
+
+}
+nav ul li a:hover{
+    text-decoration: underline;
+   
+   
+    
+}
+.back{
+    width: 100%;
+    height: 60vh;
+  margin: -40px 0 0 ;
+}
+.main-con{
+    width: 100%;
+   
+    
+    
+}
+.hex{
+    display: flex;
+    margin: -150px 0 0 80px;
+    font-size: 40px;
+    color: azure;
+   
+}
+.three{
+    display: flex;
+    width: 100%;
+    border: none;
+    outline: none;
+    color: azure;
+    background: #efefef;
+    
+
+}
+.three  ul {
+    width: 20%;
+    height: 30px;
+    display: flex;
+    background: #efefef;
+    margin-left: 200px;
+    margin-top: 20px;
+    list-style: none;
+    font-weight: 600;
+    
+  
+   
+}
+.three ul li{
+    margin: 5px 20px 5px 24px;
+}
+.three ul a{
+    text-decoration: none;
+    color: #333;
+}
+.three ul a:hover{
+    text-decoration: underline;
+}
+.inbox{ 
+    display: flex;
+    width: 70%;
+    height: 100px;
+    border: none;
+    outline: none;
+    color: azure;
+    margin: 2px 0 0 199px;
+    background: #dedfe1;
+    
+   
+}
+.inbox input{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin: 20px 0 20px 25px;
+
+    
+}
+
+#dk{
+    display: flex;
+    margin: 33px 0 0 -39px;
+    color: black;
+    font-size: 25px;
+}
+#hi{
+    font-size: 50px;
+    display: flex;
+    color: black;
+    margin: 22px 6px 0 40px;
+}
+#oi{
+    display: flex;
+    color: rgb(44, 246, 131);
+    margin-left:-40px ;
+    margin-top: 38px;
+    font-size: 12px;
+}
+.inbox input::placeholder{
+    padding: 5px 5px 5px 80px;
+    color: blue;
+    font: 20px;
+}
+.scooty{
+    display: flex;
+    border: none;
+    outline: none;
+
+}
+.dio{
+    width: 70%;
+    height: 180px;
+    margin-left: 198px;
+}
+.global{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 520;
+    margin-top: 80px;
+   text-shadow: 3px 3px 3px #96bc36a0;
+   font-family: 'poppins', Geneva, Tahoma, sans-serif;
+}
+.img{
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+.img ul{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+.img ul li{
+    display: flex;
+    font-size: 90px;
+    background: #e7f0cff7;
+    border: 2px solid  #e7f0cff7;
+    box-shadow: 0 0 3px  #bfc1b8f7;
+    margin: 190px 5px 5px 290px;
+}
+.fun{
+    display: flex;
+    width: 90%;
+    margin: 150px 0 0 20px;
+}
+.fun ul{
+    display: flex;
+    font-size: 12px;
+    list-style: none;
+    margin-right: 50px ;
+    margin-bottom: 100px;
+}
+.fun ul li{
+    margin-left: 280px ;
+    margin-right: 3px;
+    
+}
+#adei{
+    margin-left: -80px;
+    
+    
+}
+#venna{
+    margin-left: -80px;
+}
+.end{
+    border: none;
+    background: #bfc2c4;
+    width: 100%;
+    outline: none;
+    box-shadow: 2px 2px 3px rgb(37, 8, 8);
+    height: 270px;
+   
+}
+.hlo{
+    width: 100px;
+    margin: 20px 0 0 50px;
+}
+.fbyt{
+    width: 100px;
+    height: 40px;
+    
+}
+.ul{
+    height: 200px;
+    border-bottom: 2px solid gray;
+   
+    
+}
+.one{
+    margin: -30px 0 100px 400px;
+    list-style: none;
+    line-height: 1.8;
+}
+.two{
+    margin: -240px 0 100px 650px;
+    list-style: none;
+    line-height: 1.8;
+    
+}
+.third{
+    margin-left: 60%;
+    margin-top: -240px;
+    margin-bottom: 100px;
+    list-style: none;
+    line-height: 1.8;
+}
+    
+
+
+.copy{
+    width: 100%;
+    display: flex;
+    
+    height: 50px;
+}
+.pochu{
+    margin: 12px 0 0 30px;
+}
+.copy nav ul{
+    margin: 18px 0 0 350px;
+}
+.dk1{
+    color: #1cc49d;
+    background-color: #1b2f31;
+    border-radius: 50px;
+    display: flex;
+    height: 3em;
+    width:100% ;
+    font-size: 13px;
+    font-weight: 600;
+   margin-left: 130px;
+   margin-top: 23px;
+   justify-content: center;
+   align-items: center;
+   border: 5px ridge rgb(14, 13, 13) ;
+
+}
+.linkdk ,a{
+    text-decoration:none;
+}
+.linkdk a:hover{
+    text-decoration: underline;
+}
+h6{
+   color: azure;
+   font-size: 13px;
+  margin-left: 5px;
+}
+
